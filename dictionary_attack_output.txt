@@ -1,0 +1,249 @@
+kanishk@KC-ENVY:~/fis-ass3$ ls
+hashedPasswords.txt         passwords_output_combinator_attack.txt  rockyou.txt  test_output.txt
+hashedPasswords.txt.backup  passwords_output_dictionary_attack.txt  sha1.txt
+
+kanishk@KC-ENVY:~/fis-ass3$ cat passwords_output_dictionary_attack.txt
+hashcat (v6.2.5) starting
+
+OpenCL API (OpenCL 2.0 pocl 1.8  Linux, None+Asserts, RELOC, LLVM 11.1.0, SLEEF, DISTRO, POCL_DEBUG) - Platform #1 [The pocl project]
+=====================================================================================================================================
+* Device #1: pthread-12th Gen Intel(R) Core(TM) i7-1250U, 2840/5745 MB (1024 MB allocatable), 12MCU
+
+Minimum password length supported by kernel: 0
+Maximum password length supported by kernel: 256
+
+Hashes: 119060 digests; 119060 unique digests, 1 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+Rules: 1
+
+Optimizers applied:
+* Zero-Byte
+* Early-Skip
+* Not-Salted
+* Not-Iterated
+* Single-Salt
+* Raw-Hash
+
+ATTENTION! Pure (unoptimized) backend kernels selected.
+Pure kernels can crack longer passwords, but drastically reduce performance.
+If you want to switch to optimized kernels, append -O to your commandline.
+See the above message to find out about the exact limits.
+
+Watchdog: Hardware monitoring interface not found on your system.
+Watchdog: Temperature abort trigger disabled.
+
+Host memory required for this attack: 3 MB
+
+Dictionary cache hit:
+* Filename..: rockyou.txt
+* Passwords.: 14344384
+* Bytes.....: 139921497
+* Keyspace..: 14344384
+
+e068381bbd9eec031347912c57dac0f67479ba23:laptop
+c73c99fd6024c8c08b9984b4ddb2a7804787bac6:perfect
+06555c65c3e6f7492f12f77da5b05044764d5da4:louie
+eca387a74d2992c03b37e36dd2bb207685b3b41a:amalia
+abfb1e6f91ed5c41510d69a2ffc268045799c907:salome
+20907002e359190e37cf09c3f329fff1e772f9bc:salazar
+70842f7d6a7edaace9fae4c990f808e759910d43:juliet
+254f76970b57b910e95b6ddb4cfbea1a7e62b3f1:smooth
+f1e835a09c639c510bb61774f376dee994b7abd9:pastor
+10f9bb8fa0db73b6aa111df49a1d20db9da9a563:terror
+67448457342521ac78a6c986a584a6b40e23126c:imperial
+eb90bed4a35fe8e2361fe32ffcb12ce3f0131f99:nazareth
+2a854c77292bc9ad1b5587c057a8d54d21999d1b:frenchy
+362728d1f1ff951a433ce9eb4ce7a689156f8c85:monaco
+623a74ecf1fa2a7c4cb741b98c6b35f31b2e4083:thornton
+8ca6280b7cc664b58075a6058c4ec5305a0d8096:marigold
+0a42b5a194f8f09d738078afba20f83a27d294c8:pervert
+5bf611d8270eec6726a970bff5704230a03b5351:showstopper
+d036c1331f70f4fad67c821ef8aac7bcbf4626b1:ambulance
+d7acf861c1a5ac4ba673a1d83c17342236c613d2:gofish
+fddbe01857e2d3ab505bfc1dac3b38a2c8b8cd65:lily
+325d4882dbd211f66a98581cd73b8571824b0dcb:wander
+e01eeb8230c4234522dc6dbfb08e043814291640:godchild
+ac96ed8bee2b983f6ca01f102f076ee20034d997:morley
+ce8a068f45903951901bf909ca01862ef5b1922d:flange
+64dd80f3f1601741ce85c89952adf97a77fd5b34:paparazzi
+77e2b10ba077db568c032f3de3747efe82aa6ce1:valdivia
+1210cdffc1810f2947084bec43397aa36018c6bf:critical
+3b6df742068c4d4b30bcb66d56d77935f413de0d:candee
+c9b9ec15e49258a29b127652d20b593526abd63f:royale
+5df588cdf6852854316d8b209879fbaced2c4b8e:photograph
+8f2e7cd784967d6a79abd59093146fb1f82e336d:culture
+8fe3b459953e19f902505ea92e5113e078448669:durand
+67b04fb656c303da4dd75fe0f0cd6110bbdfde91:orleans
+755fd789e1bd61582b75b73a041639e6af08c298:whittle
+79f986df02681a01bfb6a5c0ade417c34f200b84:garvey
+d451e65de5a457984b0c328794511ccaedf2d166:whitewater
+d4712065bd83b747fb621f5f19c97180287cb91b:hopalong
+774090334f44db622fa39f3d3d9eac599abc42af:timetable
+08776b06169214abedb0385755ea8d14359b0c53:hatchback
+4c10aefc487bedf1ffe6547a6bd1a15ea0975dbf:alton
+a7a6a96101944604c8f14567d075d2e3543f201b:samhouston
+a50a3494ac1ce07495e5a002b3d1987e0454b66b:mccormack
+5d9b7713484cc2e4f1077f8d8df68b2bef899b30:melitta
+eff074eb289da531839437184b323bc2840062ed:dogie
+11b1a22c3ace1f3362cd8e33437d6b2607b6f7f7:shikari
+e0d99afef6b59bad43961681f36d68ed5c8074fe:rhyme
+6c17f09eb2ea1f380eab8f9dc31b8e660fa4c9ce:sleigh
+87445436604ffe5f5908a603f0983314495abc54:manly
+4aeddba3d544c84ae8bbcf66508612da9eb5c21b:harlingen
+f4a924e2e48f98bd98fe1524c9f6ce5e4864bc72:trento
+e72ec80fa9db627052758c0ccd8a1773a99287a5:ceara
+7ec3fc235d2504dbc14c7cf177993bf6d92d6794:braindamage
+0a4af3a6ee68a5c4e6ac541ab94e64216b31dee1:sanskrit
+3b9f70bcb40540ee785ed69476e4c157c7992355:portico
+a276b3d370f7f3e0a38f02b9f0c08a464bcf0aaa:archy
+e55e91b2cc22ba117ba8d1546537f7a4c037cf67:talk
+ea364a4d410967dd9888873bd4a4588a7d517a77:okeeffe
+14e1083ffaac39b61a56ab5915d3e7d77746c477:citation
+0bb831d59c5e264c650c643333d0ba444f0e5d5d:eggcup
+1052cde2d9911f1960276198ccbdda5509b7ec2e:doorhandle
+c6c7d29c4fe1870d0426cdab1370167215180369:ansel
+92f694bdb0fb913864e999d595391026df0b8073:whitefield
+b63eab1c93fbb5f8ea4f37f8c04f3c0154b9f8b6:sedalia
+204acd4bb18314a8a2e1b42cd8d3c19dc8201b69:racehorse
+d3877384661e9119bcc18aa17a484aa5b2de7445:overland
+f5ae098994f9ddcc9106125d8edbf831e64d6fc9:krakatau
+c61adaf50d32ab2a2198b8e785ab231d54b603cf:dosser
+524dcb2884bc19ba88e7d676cb1d9f4d0f77378c:aylesbury
+12cc93115c9dde452ddafd5bc6ee0238f74ade7e:avogadro
+a24535d49a437f0b6c99da30388bc522efbe6d9d:smuggler
+b4d6e1ebee0be178f815a687c12ad4ec37f81186:manala
+b2005b3bb19b3916425998c0edd72b97667ec1fc:heimdall
+4ccae2fe5b45b2fd99e7ce27e212e05ff1b196f3:coimbatore
+900b4f554bd91a832d86828397af85324aec1105:colossians
+befb42ff8a0dc7f0ca990682b6110f7c10278d8f:alamode
+965d95a6eba64ec48683bacbd84a2385c3b65375:seringa
+0df669fbeb8d54233f89dc5a4998370aeba7be50:randers
+eec6536a413961e2e9f9686adaf6c766a1d5340d:realwoman
+d9cc28ad71de3af0494f1ab12daa10d027b9da37:lacumbre
+7928b5d4498987d8f05a80e589c2af31e018d2ce:firststep
+5ff2ce4e6399a817d1fb3ab3b820d2cc67c05db5:bloodrain
+6649cb530fb027fb481f9f4332a329d0409984e2:truant
+4424cae00efb6e107897f18de4477cde359cadff:tokay
+931a75bc4f56074653580a195ccb623a6e99a9eb:mush
+90fbd8f8e6ab79017405917a5f3157701aae23d3:malus
+b212a904679b578d07aca4a21a6f4899d6c65e72:barndoor
+0e2b04555f37410653fd1df6cc923a8f9ab783ea:almad
+dd65dca706a3de6d92b42ae9aa18db4edde0093a:waisted
+4676b558a3cc316705d1f7e62249b7847843093f:stickney
+b7948190e3906d9d6eb70ab804fac79fc2bfb827:poundcake
+05abf1cf10fd61d59b8e331291c7624ee2a902ba:lipsync
+74699616123fb641acb4d90676f4a72d173a1c8c:disappointed
+13721a3db0491522b879d50a1d4d1f2b9f102a21:chickenstew
+da0966aa5d3c7a7793b7923761bfcf9130b9413e:automate
+978ca05637c797bbaaefac843b2b80de9da1ed6f:tillamook
+35c30b3166bd2b0cd0f643e9dc7546cfa15d1956:steinberg
+cfb6367775500469a6e0e1ea1171aa909b740de4:reinvention
+f003f9965581e222921810d91038425e855fff6d:rathe
+d2d5c7f5bd997a6a6468adef2b356a20dc149d4c:racism
+7d05a6e6d96139c19085b04e3aadb0d0e228a2d9:phyxius
+299a3460d3b395bb1a362c762e34e7981dbabbae:maryborough
+e59fb174e4962760b651c4ed45fca0f9e7441773:launceston
+581a298da3ea86c60bc2005af7c862fea9c5f73b:idealist
+60c5165b3543be3e67317462379936883779089f:ignace
+8a563c0ad079796ae8391ab5e2eb1cfe23db1334:greatbear
+e7593cd55aa33167afce69b52fdb4a492991d51d:cowcatcher
+8b309710c0431cc88cfdb21c4a80553183baa6f4:bodhisattva
+76ae10c0d8cc936e0772ce837680b9e5a3a1743d:andalusian
+7d7fa996098a76175b1d08daac68c8a778525426:washin
+b698d2cbdfb387986b3a25a2eacb12f484b56bbf:torsade
+112e95fef197447c54293d4ef86dde934987ae38:thamyris
+4ae0ebd5fdca5ed16f270b64dce97458ecb5a62a:stowe
+44448d596567c3fc09d16ea352255107a5853f1d:skinman
+75bed83ed2f8e8f81644189e70281cc41506cca2:roustabout
+7c47bc375337fc66c2456eeec30f900900035b55:pursue
+20737151683d36fae292fa82c1f4effe70a780d3:paddlefish
+10a0997aef8b80517d4993f04281477b9299289f:lungcancer
+f12ea5367a8abbfefb0858e6cf26474e21142b68:kachin
+b3dd1bbe2d68959945fe86d6c7d9f55db68e9f87:frozenwater
+d3c8dc1167131a10cae91284ef776d73d93fc4f0:flyingcolours
+c4ef1abf5aed7a048b25070c9b5d5cb7f43e0276:delonix
+aee2faa2f3f246e441fe258e84a724ee788f649b:collation
+87a5d43686b5a676893d429e16450413f9267bf3:chinmusic
+922d62c3380532c8c30fc311393802fe7c65343c:charpentier
+742ce10d6d93790344cfd1b629fa6955d66b78b7:chaim
+a90fee59c1fd26c53911512e73761f086a443bb7:birdshot
+f24f7631230ded782bac6a446812d2971bb4b456:baffin
+e74ec71e05022bc24a358708be37c7fdad5e5c6e:admired
+b77cfa3e54309b5615e823db010456b8a9ba81c7:7835
+24a3f22bca303a80776488d34a3ded9ee30b6547:1pervert
+75dff401dffd1041002c5c8982347ef663558707:wadder
+ced773cba43a4c832a20253e8df38cd5a15f163b:unfathomed
+a40a9d93661a0866135ed3556959593a5766e926:towelrack
+d6988a6cfbf1cb5edb9deaca18d62a5563bd67db:theiler
+75751aac9289cdc27df595d1fcfb1703bace22cc:t2okay
+7cc5f2b198796ca832d1c6446be7103ba71c713b:supine
+2c67c13eb7b1fba6297420d8e000dd1d6dc9e40c:sunless
+a129f83000ff88f271298916cb858a6a5fb0b43b:starchy
+c8268a205b78024d6bb2976fc6137d14a17df15a:silastic
+b0c8417902bb05be96e1705b7b123459d155bcfb:sanctifier
+a1f2900cf111f680a1cf80be3f04f4eedda711f9:reasilvia
+d819b77fdede33a5749719ddfe623b1208c6f2df:purger
+518368e2314ae7c3a90cc70741c8a2cfad681c4e:probablecause
+23121088368b45269361a2708ded02fabeaee11f:prewett
+25adcdc29826b9b67fd0a9aeae59e1972de5951b:prairierose
+aeca59c016b1a6ec987fc651c5e3050b564b1ada:philanthropy
+39e8f6ce86df5631b5487ff51d7bb6a2fe483d59:overtired
+e2b926f0167205b8a8e9c9d0783943b51da2f303:outsigh
+173b107c1c5811692c427a0f0a0c90ca0074958b:nobbler
+64619480d196ad1f90169005019860f6d5d394c3:neotype
+5a3003e85a0b9dbf57e698710f8f3cce992c5f74:multitester
+744080d050f478b4f2edf2c880ead9844e18f6e2:moonon
+cc5d4ebbbe54476eba161c9b75df7c85e76880f6:misogyny
+2ccaa0f74b02ee702e0857349fadd26c169d5054:markoff
+f066a2752e6e334cfe6151714d82a781284dd648:magot
+85c03474a93fb61630c464113132f4a4d267f63c:maced
+2a04aea98615dc0edbb9dc998fa28a1f533d40c7:lowish
+01a0a3bafda0ca90b3af491d4469637901d24cce:lefthander
+f6a68ab79bee681ec6a25d284db43f17b4caee7d:keat
+a4a6cea8e543099f7e2a4894d9768c6cd77f9075:jati
+8a46ea0ae0014e3ea9e7dfb69d3ddb8f62c23b0d:janefonda
+be394253d0de9a244cb29e1264d8e21054186f98:horsewomen
+d64f664c42ba0bc50e34ba04c322d376ea27e052:hisser
+d4f8fe8d6e4aac18fdc962ebfc1d3e7d3b5de9d6:groundround
+c33f5ed6a14c49762e5b5d4e540b13192cdf7e8a:grammatical
+564b6bbfc7e89b32f57803635eb8ffc129529c69:goodshepherd
+87becd11cd879e64ef078d4582687aec74f98121:gatha
+b95679189745e23e656a9a67eadbc05b2f592b6e:floortile
+6149b339095da86e43c2955ec83d402507867467:deride
+032e4907c62a818979aa084d66ff73d54d85b435:decadron
+acc15ac36233921923102996c41f34cb0a46756f:culturist
+35e78a713e72df8e8aacc49ab88b9cafbf79083e:crania
+d2800f87980b9559e94e93228a6cafd65191f17f:confidant
+f603dacad59e5b596873b2ff4735d024cc228ae1:calfroping
+41d5af2b2718388e680cda30ab368d37da6c731d:braze
+f95d5a2a8971a3658e5c8471ea6ca71447c6a7bb:bicycling
+dcfa7ffbe6e589b7b7f8220929a613af83830439:astreus
+b9f93779c3f9c2fb005417b9c1603251c668ef2a:agegroup
+0a5eb3a4dab558c7ce874b22b1ab3797888c65e7:aella
+298f93b1b0efeaf41f0ce468d29abfd252985869:785
+388373a4afb7fd56831a90345571afac3403d59b:78435
+Approaching final keyspace - workload adjusted.
+
+
+Session..........: hashcat
+Status...........: Exhausted
+Hash.Mode........: 100 (SHA1)
+Hash.Target......: hashedPasswords.txt
+Time.Started.....: Sun Apr 16 03:48:31 2023 (4 secs)
+Time.Estimated...: Sun Apr 16 03:48:35 2023 (0 secs)
+Kernel.Feature...: Pure Kernel
+Guess.Base.......: File (rockyou.txt)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:  3282.0 kH/s (0.32ms) @ Accel:512 Loops:1 Thr:1 Vec:8
+Recovered........: 182/119060 (0.15%) Digests
+Remaining........: 118878 (99.85%) Digests
+Recovered/Time...: CUR:N/A,N/A,N/A AVG:N/A,N/A,N/A (Min,Hour,Day)
+Progress.........: 14344384/14344384 (100.00%)
+Rejected.........: 0/14344384 (0.00%)
+Restore.Point....: 14344384/14344384 (100.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:0-1
+Candidate.Engine.: Device Generator
+Candidates.#1....: $HEX[216361726f6c696e65] -> $HEX[042a0337c2a156616d6f732103]
+
+Started: Sun Apr 16 03:48:30 2023
+Stopped: Sun Apr 16 03:48:37 2023
